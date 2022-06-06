@@ -16,7 +16,7 @@ function App() {
   };
   return (
     <div className="flex flex-col md:flex-row max-w-[1440px]">
-      <div className="w-full md:w-6/12 lg:w-2/5 xl:w-2/5 bg-vencruBlue-500 px-[79.5px] pt-[70px] h-screen">
+      <div className="w-full md:w-6/12 lg:w-2/5 xl:w-2/5 bg-vencruBlue-500 px-10 md:px-[79.5px] pt-[70px] h-screen">
         <h6 className="text-white text-lg tracking-[0.21em]">SME Better</h6>
         <section className="pt-[90px]">
           <h6 className="text-white">Log into your Business Manager</h6>
@@ -45,7 +45,7 @@ function App() {
           <button className="bg-transparent border border-white rounded text-center w-full mt-[25px] uppercase py-2 text-sm font-semibold text-white">
             sign in
           </button>
-          <div className="flex justify-center align-center text-sm py-6 flex-col md:flex-col lg:flex-row xl:flex-row">
+          <div className="flex justify-center align-center text-sm py-6 flex-row lg:flex-row xl:flex-row">
             <span className="text-white font-medium opacity-50">Don’t have an account? </span>
             <span className="text-white font-semibold pl-1.5">Sign Up</span>
           </div>
